@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">LearningMyApplication</string>
+    <string name="enter_your_message">Enter Your Message</string>
+    <string name="send_data_to_next_activity">Send Data To Next Activity</string>
+    <string name="show_toast">Show Toast</string>
 </resources>
