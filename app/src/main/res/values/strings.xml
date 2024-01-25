@@ -5,4 +5,6 @@
     <string name="show_toast">Show Toast</string>
     <string name="textview">TextView</string>
     <string name="share_to_other_apps">SHARE TO OTHER APPS</string>
+    <string name="recycler_view_demo">Recycler View Demo</string>
+    <string name="title">Title</string>
 </resources>
