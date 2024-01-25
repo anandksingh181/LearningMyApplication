@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val btnSendMsgToNextActivity = findViewById<Button>(R.id.btnSendMsgToNextActivity)
         val etUserMessage = findViewById<EditText>(R.id.etUserMessage)
         val btnShareToOtherApps = findViewById<Button>(R.id.btnShareToOtherApps)
+        val btnRecyclerViewDemo = findViewById<Button>(R.id.btnRecyclerViewDemo)
         btnShowToast.setOnClickListener {
             Log.i("MainActivity","Button was clicked !")
             Toast.makeText(this,"Button was clicked !",Toast.LENGTH_SHORT).show()
@@ -40,6 +41,11 @@ class MainActivity : AppCompatActivity() {
             intent.type = "text/plain"
 
             startActivity(Intent.createChooser(intent, "Share To : "))
+        }
+
+        btnRecyclerViewDemo.setOnClickListener {
+            val intent = Intent(this ,HobbiesActivity::class.java )
+            startActivity(intent)
         }
     }
 }
